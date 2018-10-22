@@ -1,0 +1,46 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - DAAlertController (0.1.4)
+  - SKActivityIndicatorView (0.1.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - DAAlertController (from `https://github.com/daria-kopaliani/DAAlertController.git`)
+  - SKActivityIndicatorView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - SKActivityIndicatorView
+
+EXTERNAL SOURCES:
+  DAAlertController:
+    :git: https://github.com/daria-kopaliani/DAAlertController.git
+
+CHECKOUT OPTIONS:
+  DAAlertController:
+    :commit: 2a83794bb0f46d2979917dedb40d317e202cb67f
+    :git: https://github.com/daria-kopaliani/DAAlertController.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  DAAlertController: 4735313ec65d3d69f81fdd34d01308809680350f
+  SKActivityIndicatorView: f46936f760d33eb8235333242269bf01cc9248ae
+
+PODFILE CHECKSUM: c5b781c089e03f187d795d7a65c030650618d2c7
+
+COCOAPODS: 1.5.3
